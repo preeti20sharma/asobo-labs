@@ -19,9 +19,9 @@
 
 :root {
   --rt-theme: #09A24F;
-  --rt-primary: #d2232a;
-  --rt-primary-1: #d2232a;
-  --rt-primary-2: #d2232a;
+  --rt-primary: #f04b14;
+  --rt-primary-1: #e2410b;
+  --rt-primary-2: #e2410c;
   --rt-secondary: #110C2D;
   --rt-footer: #181818;
   --rt-body: #737477;
@@ -29172,23 +29172,20 @@ body.index-sc h6 {
 
 /* Card Style */
 .partner-card {
-  background: #1a1a1a;
+  background: linear-gradient(135deg, #f04b14, #da2800);
   /* Dark premium card */
   padding: 18px 26px;
   margin-right: 26px;
   border-radius: 14px;
   color: #f9f9f9;
   white-space: nowrap;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 600;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   transition: all 0.35s ease;
 }
 
 /* Hover effect */
 .partner-card:hover {
-  transform: translateY(-6px);
   background: #222;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
