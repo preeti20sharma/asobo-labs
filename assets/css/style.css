@@ -29187,7 +29187,6 @@ body.index-sc h6 {
 /* Hover effect */
 .partner-card:hover {
   background: #222;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 /* Auto-scroll animation */
