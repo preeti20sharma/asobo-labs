@@ -19,9 +19,9 @@
 
 :root {
   --rt-theme: #09A24F;
-  --rt-primary: #f04b14;
-  --rt-primary-1: #e2410b;
-  --rt-primary-2: #e2410c;
+  --rt-primary: #689F38;
+  --rt-primary-1: #689F38;
+  --rt-primary-2: #689F38;
   --rt-secondary: #110C2D;
   --rt-footer: #181818;
   --rt-body: #737477;
@@ -68,8 +68,8 @@
   --line-height-b2: 26px;
   --line-height-b3: 1.7;
   --h1: 64px;
-  --h2: 48px;
-  --h3: 32px;
+  --h2: 28px;
+  --h3: 28px;
   --h4: 28px;
   --h5: 24px;
   --h6: 20px;
@@ -10347,7 +10347,7 @@ input[type=radio]~label::before {
   left: 0;
   width: 15px;
   height: 15px;
-  background-color: #e2410c;
+  background-color: #689F38;
   border-radius: 2px;
   transition: all 0.3s;
   border-radius: 2px;
@@ -19340,8 +19340,7 @@ rts-section-title .rts-ap-section .rts-border-bottom-2 {
 
 .banner.v__2 .banner__wrapper .banner__slides--container {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .banner.v__2 .banner__wrapper .banner__slides--container.banner__height {
@@ -19360,7 +19359,7 @@ rts-section-title .rts-ap-section .rts-border-bottom-2 {
 }
 
 .banner.v__2 .banner__wrapper .banner__slides--content {
-  max-width: 650px;
+  max-width: max-content;
 }
 
 @media screen and (max-width: 992px) {
@@ -19376,6 +19375,8 @@ rts-section-title .rts-ap-section .rts-border-bottom-2 {
   font-family: var(--font-primary);
   font-weight: 400;
   text-transform: capitalize;
+  font-size: 20px;
+  padding-bottom: 15px;
 }
 
 .banner.v__2 .banner__wrapper .banner__slides--content--sub-2 {
@@ -19390,7 +19391,7 @@ rts-section-title .rts-ap-section .rts-border-bottom-2 {
 
 .banner.v__2 .banner__wrapper .banner__slides--content--title {
   color: var(--rt-white);
-  line-height: 65px;
+  line-height: 50px;
 }
 
 @media screen and (max-width: 992px) {
@@ -22378,7 +22379,7 @@ rts-section-title .rts-ap-section .rts-border-bottom-2 {
 }
 
 .rts-scholarship.rts-scholarship-bg {
-  background-image: url(../images/feature/scholarship-bg.jpg);
+  background-image: url(../images/asobo_img/bannerimg.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26219,7 +26220,7 @@ rts-section-title .rts-ap-section .rts-border-bottom-2 {
   position: absolute;
   height: 100%;
   width: 1px;
-  background: #AF2944;
+  background: #fff;
   content: "";
   top: 0;
   right: -30px;
@@ -29127,6 +29128,12 @@ rts-section-title .rts-ap-section .rts-border-bottom-2 {
   -webkit-text-fill-color: transparent;
 }
 
+.header-gradient {
+  background: linear-gradient(335deg, #41800a 0%, #c6f5c6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* btn */
 .whatsapp-button {
   position: fixed;
@@ -29248,7 +29255,7 @@ rts-section-title .rts-ap-section .rts-border-bottom-2 {
 
 /* Card Style */
 .partner-card {
-  background: linear-gradient(135deg, #f04b14, #da2800);
+  background: linear-gradient(135deg, #689F38, #4f8520);
   /* Dark premium card */
   padding: 18px 26px;
   margin-right: 26px;
@@ -29299,4 +29306,47 @@ rts-section-title .rts-ap-section .rts-border-bottom-2 {
   cursor: pointer;
   user-select: none;
   transition: 0.3s ease;
+}
+
+.slider-list li {
+  color: #fff !important;
+  font-size: 18px !important;
+}
+
+.focus-highlight {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.focus-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, #f7faff, #eef3ff);
+  border-left: 4px solid #689F38;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.focus-item p {
+  margin: 0;
+  font-size: 15px;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+.focus-item strong {
+  color: #689F38;
+}
+
+.focus-dot {
+  width: 10px;
+  height: 10px;
+  background: #689F38;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
 }
